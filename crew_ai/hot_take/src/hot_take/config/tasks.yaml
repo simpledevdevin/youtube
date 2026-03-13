@@ -1,17 +1,27 @@
-research_task:
+generate_topic_task:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is {current_year}.
+    bring up a current sports topic. The topic should be recent sporting event or news story within the last 30 days.
   expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
-  agent: researcher
+    The topic should be recent sporting event or news story within the last 30 days. It should only be a topic, don't introduce what about the topic should be debated on.
+  agent: moderator
 
-reporting_task:
+generate_hot_take_task:
   description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    Generate a hot take based on the given {topic}.
   expected_output: >
-    A fully fledged report with the main topics, each with a full section of information.
-    Formatted as markdown without '```'
-  agent: reporting_analyst
+    The hot take should be appropriate for general audiences. Only return the hot take, no other text. The hot take should be appropriate for general audiences.
+  agent: junior_debator
+
+improve_hot_take_task:
+  description: >
+    Improve upon the given {hot_take} by providing a more detailed and convincing argument. Provide facts and examples to support your points.
+  expected_output: >
+    Only return the improved hot take, no other text. The hot take should be appropriate for general audiences.
+  agent: senior_debator
+
+counter_hot_take_task:
+  description: >
+    Argue against the given {improved_hot_take} by providing a counter argument. Provide facts and examples to support your points.
+  expected_output: >
+    Only return the counter argument, no other text. The counter argument should be appropriate for general audiences.
+  agent: counter_debator

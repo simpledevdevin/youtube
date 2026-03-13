@@ -1,0 +1,1 @@
+The controversy surrounding the NBA's recent implementation of a new in-game coach challenge system during the 2024 season.

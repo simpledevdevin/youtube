@@ -1,0 +1,1 @@
+The NBA’s new coach challenge system is a disaster in disguise—it's turning the game into a referee popularity contest and killing the flow, proving once again that overcomplicating sports always backfires!
