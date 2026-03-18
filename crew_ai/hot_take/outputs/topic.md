@@ -1,1 +1,1 @@
-The controversy surrounding the NBA's recent implementation of a new in-game coach challenge system during the 2024 season.
+Senegal were ruled to have forfeited the African Champions title; Morocco declared African champions - Soccer, March 17, 2026.

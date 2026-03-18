@@ -13,16 +13,12 @@ def run():
     """
     Run the crew.
     """
-    # inputs = {
-    #     'topic': 'AI LLMs',
-    #     'current_year': str(datetime.now().year)
-    # }
-
-    # try:
-    #     HotTake().crew().kickoff(inputs=inputs)
-
     try:
-        result = HotTake().crew().kickoff()
+        inputs = {
+            "current_date": datetime.now().strftime("%Y-%m-%d"),
+            "current_year": str(datetime.now().year),
+        }
+        result = HotTake().crew().kickoff(inputs=inputs)
         print(result.raw)
     except Exception as e:
         raise Exception(f"An error occurred while running the crew: {e}")

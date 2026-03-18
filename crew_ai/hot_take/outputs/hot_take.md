@@ -1,1 +1,1 @@
-The NBA’s new coach challenge system is a disaster in disguise—it's turning the game into a referee popularity contest and killing the flow, proving once again that overcomplicating sports always backfires!
+The decision to strip Senegal of their African Champions title and crown Morocco instead reeks of political interference disguised as sport—this isn't just about who played best, it's about power dynamics overshadowing the true spirit of competition, and it sets a dangerous precedent that undermines African football's integrity.

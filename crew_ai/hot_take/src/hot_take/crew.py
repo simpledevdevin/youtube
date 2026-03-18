@@ -1,4 +1,5 @@
 from crewai import Agent, Crew, Process, Task
+from crewai_tools import SerperDevTool
 from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 
@@ -15,7 +16,8 @@ class HotTake():
     @agent
     def moderator(self) -> Agent:
         return Agent(
-            config=self.agents_config['moderator'], 
+            config=self.agents_config['moderator'],
+            tools=[SerperDevTool()],
             verbose=True
         )
 
@@ -76,6 +78,6 @@ class HotTake():
         return Crew(
             agents=self.agents, # Automatically created by the @agent decorator
             tasks=self.tasks, # Automatically created by the @task decorator
-            process=Process.sequential,
-            verbose=True,
+            process=Process.sequential, # Process is the order in which the agents and tasks are executed
+            verbose=True, # Whether to print the logs
         )
