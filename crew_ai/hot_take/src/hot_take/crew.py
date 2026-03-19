@@ -10,6 +10,8 @@ class HotTake():
     # agents: list[BaseAgent]
     # tasks: list[Task]
 
+    # technically this is not needed because of the @CrewBase decorator
+    # but is nice to explicitly spell out
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
 

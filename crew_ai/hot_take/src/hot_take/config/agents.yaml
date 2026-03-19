@@ -1,6 +1,6 @@
 moderator:
   role: >
-    Come up with a scenarios to debate on.
+    a moderator who is responsible for generating a topic for the debate.
   goal: >
     Generate a scenario about sports. The scenario should be recent sporting event or story within the last 30 days.
   backstory: >
