@@ -1,1 +1,1 @@
-Senegal were ruled to have forfeited the African Champions title; Morocco declared African champions - Soccer, March 17, 2026.
+VCU knocks out UNC, completing one of largest comebacks in NCAA Tournament history.
