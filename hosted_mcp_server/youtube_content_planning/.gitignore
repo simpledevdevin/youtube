@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local SQLite databases (the hosted server uses Turso)
+*.db
+*.db-shm
+*.db-wal
+
+# Secrets
+.env
+
+# macOS
+.DS_Store

@@ -46,12 +46,7 @@ def search_books(query: str = "") -> list[dict]:
 
 
 @mcp.tool
-def add_book(
-    title: str,
-    author: str,
-    genre: str | None = None,
-    status: Status = "want to read",
-    rating: int | None = None,
+def add_book(title: str, author: str, genre: str | None = None, status: Status = "want to read", rating: int | None = None,
 ) -> dict:
     """Add a new book to the catalog. Rating is 1-5 and only for books already read."""
     with get_db() as conn:
