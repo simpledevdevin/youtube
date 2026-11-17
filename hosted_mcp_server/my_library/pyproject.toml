@@ -1,5 +1,5 @@
 [project]
-name = "youtube-content-planning"
+name = "my-library"
 version = "0.1.0"
 description = "A hosted MCP server for a personal book catalog (Turso + Prefect Horizon)"
 readme = "README.md"
@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.scripts]
-youtube-content-planning = "youtube_content_planning:main"
+my-library = "my_library:main"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]
